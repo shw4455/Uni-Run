@@ -14,11 +14,17 @@ public class PlayerController : MonoBehaviour {
    private AudioSource playerAudio; // 사용할 오디오 소스 컴포넌트
 
    private void Start() {
-       // 초기화
-   }
+        playerRigidbody = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        playerAudio = GetComponent<AudioSource>();
+    }
 
-   private void Update() {
-       // 사용자 입력을 감지하고 점프하는 처리
+    private void Update() {
+        if (isDead)
+        {
+            // 사망시 처리를 더이상 진행하지 않고 종료
+            return; //void 인데 return이 있네?
+        }
    }
 
    private void Die() {
