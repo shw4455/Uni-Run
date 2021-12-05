@@ -19,13 +19,9 @@
     * 넷
 
 들여쓰기:
-
     줄 1
-
         줄 2
-
             즐 3
-
 줄 4
 
 코드블럭
@@ -44,14 +40,16 @@ public class BootSpringBootApplication {
 링크
 
 참조링크
-[Google][googlelink]
+
+Link : [Google][googlelink]
 [googlelink]: https://google.com "Go google"
 
 외부링크
-사용문법: [Title](link)
+
 적용예: [Google](https://google.com, "google link")
 
 자동연결
+
 일반적인 URL 혹은 이메일주소인 경우 적절한 형식으로 링크를 형성한다.
 * 외부링크: <http://example.com/>
 * 이메일링크: <address@example.com>
@@ -75,8 +73,6 @@ __더블 언더바__
 줄바꿈
 3칸 이상 띄어쓰기를 하면 줄이 바뀐다.
 
-첫 줄
-
-둘째줄
-
+첫 줄   
+둘째줄   
 셋째줄
