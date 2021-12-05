@@ -10,8 +10,8 @@
 -------------
 
 > 블랙인용문자
-> 블랙인용문자 2
-> 블랙인용문자 3
+> > 블랙인용문자 2
+> > > 블랙인용문자 3
 
 * 하나
 * 둘
@@ -19,20 +19,23 @@
     * 넷
 
 들여쓰기:
+
     줄 1
 
         줄 2
 
-줄 3
+            즐 3
+
+줄 4
 
 코드블럭
-'''java
+```java
 public class BootSpringBootApplication {
   public static void main(String[] args) {
     System.out.println("Hello, Honeymon");
   }
 }
-'''
+```
 
 수평선
 ---
@@ -41,13 +44,7 @@ public class BootSpringBootApplication {
 링크
 
 참조링크
-[link keyword][id]
-
-[id]: URL "Optional Title here"
-
-// code
-Link: [Google][googlelink]
-
+[Google][googlelink]
 [googlelink]: https://google.com "Go google"
 
 외부링크
@@ -56,7 +53,6 @@ Link: [Google][googlelink]
 
 자동연결
 일반적인 URL 혹은 이메일주소인 경우 적절한 형식으로 링크를 형성한다.
-
 * 외부링크: <http://example.com/>
 * 이메일링크: <address@example.com>
 
@@ -79,5 +75,8 @@ __더블 언더바__
 줄바꿈
 3칸 이상 띄어쓰기를 하면 줄이 바뀐다.
 
-첫 줄   둘째줄
+첫 줄
+
+둘째줄
+
 셋째줄
