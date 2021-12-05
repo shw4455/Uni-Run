@@ -19,9 +19,11 @@
     * 넷
 
 들여쓰기:
+
     줄 1
         줄 2
             즐 3
+
 줄 4
 
 코드블럭
@@ -44,9 +46,11 @@ public class BootSpringBootApplication {
 Link : [Google][googlelink]
 [googlelink]: https://google.com "Go google"
 
+
 외부링크
 
 적용예: [Google](https://google.com, "google link")
+
 
 자동연결
 
@@ -54,24 +58,17 @@ Link : [Google][googlelink]
 * 외부링크: <http://example.com/>
 * 이메일링크: <address@example.com>
 
-강조
-*별*
-_언더바_
-**더블별**
-__더블 언더바__
+강조   
+*별*    
+_언더바_    
+**더블별**  
+__더블 언더바__ 
 ~~더블물결표시~~
 
-이미지
-![Alt text](/path/to/img.jpg)
-![Alt text](/path/to/img.jpg "Optional title")
+~~이미지는 다음에~~
 
-사이즈 조절 기능은 없기 때문에 <img width="" height=""></img>를 이용한다.
-
-<img src="/path/to/img.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
-<img src="/path/to/img.jpg" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
-
-줄바꿈
-3칸 이상 띄어쓰기를 하면 줄이 바뀐다.
+줄바꿈  
+3칸 이상 띄어쓰기를 하면 줄이 바뀐다    
 
 첫 줄   
 둘째줄   
