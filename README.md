@@ -40,7 +40,11 @@
     ```
 4. ~~발판이 생기지 않음~~ 21.12.06  
     Platform 프리펩에 잘못된 스크립트가 들어가 있었음 (BackgroundLoop) // 3번 오류에도 영향을 끼치고 있었음
-    
+5. ~~깃허브 데스크탑에 유니티 프로젝트를 export한 unitypackage 파일이 잡히지 않음~~  
+확인해보니 .gitignore에 unitypackage 파일이 리스트에 있어서 안 잡힌 것  
+*.unitypackage => #*.unitypackage
+주석처리를 해주니 다시 잡힘
+
 ## 추가하고 싶은 기능
 
 ## 참고한 책
