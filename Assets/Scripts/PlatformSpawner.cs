@@ -61,6 +61,9 @@ public class PlatformSpawner : MonoBehaviour {
             float yPos = Random.Range(yMin, yMax);
 
             // 사용할 현재 순번의 발판 게임 오브젝트를 비활성화하고 즉시 다시 활성화
+            platforms[currentIndex].SetActive(false);
+            platforms[currentIndex].SetActive(true);
+
             // 이때 발판의 Platform 컴포넌트의 OnEnable 메서드가 실행됨
             platforms[currentIndex].transform.position = new Vector2(xPos, yPos);
             // 순번 넘기기

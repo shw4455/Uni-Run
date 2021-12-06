@@ -17,6 +17,7 @@ public class Platform : MonoBehaviour {
             // 현재 순번의 장애물을 1/3확률로 활성화
             if (Random.Range(0, 3) == 0) // 0, 1, 2 중에서 한 숫자를 랜덤 반환
             {
+                
                 obstacles[i].SetActive(true);
             }
             else
